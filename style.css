@@ -1,0 +1,86 @@
+
+
+h1
+{
+	color: #fce2e6 ;
+	font-size: 5.3em ;
+	text-align: center ;
+	font-family: "Coco gothic", Avenir, Arial
+
+}
+
+h1:hover
+{
+	color: #51191f;
+}
+
+*
+{
+	background-color: #ad4d63 ;
+	font-family: Avenir, Arial ;
+	color: #fff2f7 ;
+}
+
+h2
+{
+	font-weight: bold
+}
+
+#presentation
+{
+	display: flex ;
+	flex-direction : column ;
+	justify-content : center ;
+
+}
+
+.image
+
+{
+	margin : auto ;
+	padding: 50px ;
+}
+
+.worm1:hover
+{
+
+}
+
+.slogan
+{
+	color: #e29e9f ;
+}
+
+#personnages
+{
+	display: flex ;
+	justify-content : space-around ;
+	padding: 30px;
+}
+
+
+@media all and (orientation: portrait)
+{
+	h1
+	{font-size: 2.2em;}
+}
+
+@media all and (min-width: 1024px)
+{
+	h1
+	{font-size: 1.2em}
+
+}
+
+@media all and (orientation: portrait)
+{
+	h2
+	{font-size: 1.1em;}
+}
+
+@media all and (min-width: 1024px)
+{
+	h2
+	{font-size: 1.1em}
+
+}
